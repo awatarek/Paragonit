@@ -1,3 +1,8 @@
-<header-container></header-container>
-<content-container></content-container>
-<footer-container></footer-container>
+<mat-drawer-container class="example-container" [hasBackdrop]="true">
+  <mat-drawer #drawer [mode]="over">I'm a drawer</mat-drawer>
+  <mat-drawer-content>
+    <header-container></header-container>
+    <content-container></content-container>
+    <footer-container></footer-container>
+  </mat-drawer-content>
+</mat-drawer-container>

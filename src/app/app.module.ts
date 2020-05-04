@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderContainerComponent, ContentContainerComponent, FooterContainerComponent } from './base-layout';
 import { LandingComponent } from './sites/landing/landing.component';
+import { MatIconModule } from '@angular/material/icon';
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 
 @NgModule({
@@ -20,7 +22,9 @@ import { LandingComponent } from './sites/landing/landing.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatMenuModule
+    MatMenuModule,
+    MatIconModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]

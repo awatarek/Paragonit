@@ -1,0 +1,19 @@
+.menu{
+    height: 70px;
+    background-color: white;
+    img{
+
+        height: 55px;
+        margin: 5px;
+    }
+    button{
+        position: absolute;
+        margin: calc(34px /2);
+        right: 15px;
+        background: transparent;
+        border: 0;
+        .mat-icon{
+            font-size: 36px;
+        }
+    }
+}
