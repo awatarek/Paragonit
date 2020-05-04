@@ -1,0 +1,49 @@
+.copyRight{
+    width: 100vw;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.socialfoot{
+    width: 100vw;
+    height: 100px;
+    margin: 0;
+    text-align: center;
+    position: relative;
+
+    .fb{
+        background-color: #3b5998 ;
+    }
+
+    .yt{
+        background-color: #c4302b;
+        
+    }
+
+    .insta{
+        background-color: rgba(225,48,108,1);
+    }
+
+    .tw{
+        background-color: #1DA1F2;
+    }
+    .tw, .yt, .insta, .fb{
+        i{
+        font-size: 50px;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        }
+        &:hover{
+            background-color: hsl(0, 0%, 0.04);
+            transition: 1s;
+            color: white;
+        }
+    }
+}
